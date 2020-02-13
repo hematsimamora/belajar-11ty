@@ -3,11 +3,18 @@
 
 ### Cara pakai template ini
 
-- pastikan terinstall nodejs
+pastikan terinstall nodejs
 - `yarn install` atau `npm install` untuk memasang paket project
 - `eleventy --serve` untuk serving web nya
 
-#### Install manual 11ty
+setiap file dan folder tanpa awalan _ akan di baca dan digenerate menjadi
+statis ke dalam _site.
+
+Custom dari config disini :
+
+- folder css,js,img akan diteruskan ke _site
+
+#### Membuat project 11ty
 
 
 - Buat project dengan yarn
@@ -19,4 +26,5 @@ yarn init
 `
 yarn add @11ty/eleventy
 `
+
 
